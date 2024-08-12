@@ -1,0 +1,501 @@
+%-------------------------
+% Resume in Latex
+% Author : Chetan S Y
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+% \usepackage{charter}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\spacing{1.1}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand\tab[1][1.3cm]{\hspace*{#1}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Chetan Siddeshwar Yamakanamardi } \\ \vspace{1pt}
+    Bengaluru, Karnataka. \\ \vspace{1pt}
+    \small \href{tel:+917619535917 }{ \raisebox{-0.1\height}\faPhone\ 
+    {+91 7619535917 } $|$ ~} \href{mailto:chetansyamakanamardi2002@gmail.comm}{\raisebox{-0.2\height}\faEnvelope\  {chetansyamakanamardi2002@gmail.com} $|$ ~}  
+    \href{https://www.linkedin.com/in/chetan-s-yamakanamardi/}{\raisebox{-0.2\height}\faLinkedinSquare\ {chetan-s-yamakanamardi} }
+    % \href{https://github.com/amit000017}{\raisebox{-0.2\height}\faGithub\ {amit-gundoba}}
+    % \href{https://www.hackerrank.com/yourid}{\raisebox{-0.2\height}\faHackerrank\ \underline{yourid}} ~
+    % \href{https://codeforces.com/profile/yourid}{\raisebox{-0.2\height}\faPoll\ \underline{yourid}}
+    \vspace{0 pt}
+\end{center}
+
+% \section{OBJECTIVE}
+%   \resumeSubHeadingListStart
+%      \tab To leverage my skills and knowledge effectively in a dynamic organization that fosters growth and offers opportunities for learning. Seeking a role where I can contribute positively, learn from experienced professionals, and make meaningful contributions to the organization’s objectives.
+%   \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {BMS College of Engineering }{ 2022 - 2025}
+      {B.E. in Artificial Intelligence and Machine Learning  \textbf{CGPA} - \textbf{7.2/10}}{Bengaluru, Karnataka}
+  \resumeSubHeadingListEnd
+  \vspace{-10 pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Government Polytechnic College }{ 2018 - 2021 }
+      {Diploma in Automobile Engineering \textbf{Percentage} - \textbf{85.29\%}}{Belagavi, Karnataka.}
+  \resumeSubHeadingListEnd
+\vspace{-5pt}
+  
+% %-----------EXPERIENCE-----------
+% \section{EXPERIENCE}
+    
+%     \resumeSubHeadingListStart
+
+    
+      
+%       \resumeProjectHeading
+%           {\href{https://drive.google.com/file/d/1grqYOT3ncGf0n-BZ-7wINdBRHq3GwOZO/view?usp=drive_link}{\textbf{\large{Test Bench Engineer }} 
+%           {\raisebox{-0.1\height}\faExternalLink }} }{Jan 2022 - Jan 2023} 
+%           % \vspace{+10 pt}
+%           \normalsize{
+%           % {{SV MindLogic}}{Nippani, Karnataka}}
+
+%           \resumeSubHeadingListStart
+  
+%   %   \resumeSubheading
+%   %     {Web Development Intern }{Aug 2022 -- Sept 2022} 
+%   %     {{SV MindLogic}}{Nippani, Karnataka}
+
+%   % \resumeSubHeadingListEnd
+%   % \vspace{-10 pt}
+          
+%           \resumeItemListStart
+          
+          
+%           % {Toyota Industries Engine India Private Limited}
+%             \resumeItem{\normalsize{
+%             % {t}
+%             After completing my diploma, I worked as a Test Bench Engineer at Toyota from January 2022 to January 2023. My responsibilities included manufacturing and testing engines, ensuring they met stringent quality and performance standards. This role involved hands-on technical work, problem-solving, and collaborating with teams to deliver reliable, high-performance engines.}}
+%             % \resumeItem{\normalsize{
+%             %  Trained the model on a large dataset of text-summary pairs, to improve summary accuracy.}}
+%             %  \resumeItem{\normalsize{
+%             %  Utilized Python with TensorFlow for model development and training.}}          
+%           \resumeItemListEnd 
+%              \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE} 
+\resumeSubHeadingListStart
+\vspace{+0pt}
+\resumeSubheading
+{\href{https://drive.google.com/file/d/1grqYOT3ncGf0n-BZ-7wINdBRHq3GwOZO/view?usp=drive_link}{\textbf{\large{Toyota Industries Engine India Private Limited}} 
+    {\raisebox{-0.1\height}\faExternalLink }} }
+    % {\href{https://www.toyota-industries.com/}{Toyota Industries Engine India Private Limited}}
+    { 2022 - 2023}
+    {Test Bench Engineer}{Bengaluru, Karnataka}
+\resumeSubHeadingListEnd
+
+
+
+% \resumeSubHeadingListStart
+% \resumeSubheading
+% {\href{https://drive.google.com/file/d/1grqYOT3ncGf0n-BZ-7wINdBRHq3GwOZO/view?usp=drive_link}{\textbf{\large{Toyota Industries Engine India Private Limited}} 
+%     {\raisebox{-0.1\height}\faExternalLink }} }             
+%  {Jan 2022 - Jan 2023} 
+%     {Toyota Industries Engine India Private Limited}{2022 - 2023}
+%     {Test Bench Engineer}{Bengaluru, Karnataka}
+% \resumeSubHeadingListEnd
+
+% \resumeSubHeadingListStart
+
+
+% \resumeProjectHeading
+%     {\href{https://drive.google.com/file/d/1grqYOT3ncGf0n-BZ-7wINdBRHq3GwOZO/view?usp=drive_link}{\textbf{\large{Toyota Industries Engine India Private Limited}} 
+%     {\raisebox{-0.1\height}\faExternalLink }} }             
+%  {Jan 2022 - Jan 2023} 
+
+%  \vspace{+5pt}
+%  % \resumeSubheading
+%  % {Test Bench Engineer}{Test Bench Engineer bengaluru}
+
+%     \normalsize{
+%     \textit{Test Bench Engineer}% Adding the company name here
+% }
+
+
+% % \normalsize{
+% %     \textit{Toyota Industries Engine India Private Limited, Bengaluru, Karnataka} % Adding the company name here
+% % }
+% \resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\vspace{-10pt}
+
+\resumeItemListStart
+
+
+\resumeItem{\normalsize{
+After completing my diploma, I worked as a Test Bench Engineer at Toyota from January 2022 to January 2023. My responsibilities included manufacturing and testing engines, ensuring they met stringent quality and performance standards. This role involved hands-on technical work, problem-solving, and collaborating with teams to deliver reliable, high-performance engines.}}
+
+\resumeItemListEnd 
+
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    
+\resumeSubHeadingListStart
+      
+\resumeProjectHeading
+      {\textbf{\large{Text Summarization}} $|$ \large{Python, TensorFlow}}{Jun-2024}
+      \vspace{-11pt}
+      \resumeItemListStart
+        \resumeItem{\normalsize{
+        Developed an LSTM-based model to generate concise summaries from long-form text.}}
+        \resumeItem{\normalsize{
+         Trained the model on a large dataset of text-summary pairs to improve summary accuracy.}}
+         \resumeItem{\normalsize{
+         Utilized Python with TensorFlow for model development and training.}}          
+\resumeItemListEnd   
+      
+    \resumeProjectHeading
+      {\textbf{\large{Content Classifier for Email}} $|$ \large{Python, Scikit-learn}}{May-2024}
+      \vspace{-11pt}
+      \resumeItemListStart
+        \resumeItem{\normalsize{
+        Trained a Machine Learning model to automatically classify incoming emails into categories.}}
+        \resumeItem{\normalsize{
+         Utilized Kaggle dataset and Scikit-learn for model development, training, and evaluation.}}
+         \resumeItem{\normalsize{
+         Achieved over 92\% accuracy on the validation dataset.}}
+      
+\resumeSubHeadingListEnd
+
+  \resumeProjectHeading
+      {\textbf{\large{License Plate Recognition}} $|$ \large{OpenCV, Python, YOLOv8, OCR}}{Apr-2024}
+      \vspace{-11pt}
+      \resumeItemListStart
+          \resumeItem{\normalsize{
+          Developed a system using OpenCV for real-time license plate recognition from vehicle images.}}
+          \resumeItem{\normalsize{
+          Implemented character segmentation and optical character recognition (OCR) for accurate plate reading.}}
+          \resumeItem{\normalsize{
+          Integrated the recognition system with a database for plate storage and retrieval.}}
+\resumeItemListEnd
+
+
+
+  % \resumeProjectHeading
+  %     {\textbf{\large{Car Parking Spot Detection}} $|$ \large{OpenCV, Python}}{Apr-2024}
+  %     \vspace{-11pt}
+  %     \resumeItemListStart
+  %       \resumeItem{\normalsize{
+  %        Developed a real-time system using OpenCV to detect available parking spots from video feeds.}}
+  %       \resumeItem{\normalsize{
+  %         Implemented image processing and contour detection algorithms for accurate spot identification.}}
+  %        \resumeItem{\normalsize{
+  %        Created a user interface to show parking availability and notify users of free spots.}}
+  %     \resumeItemListEnd
+
+%   \resumeProjectHeading
+%       {\textbf{\large{License Plate Recognition}} $|$ \large{OpenCV, Python, YOLOv8, OCR}}{May-2024}
+%       \vspace{-11pt}
+%       \resumeItemListStart
+%           \resumeItem{\normalsize{
+%           Developed a system using OpenCV for real-time license plate recognition from vehicle images.}}
+%           \resumeItem{\normalsize{
+%           Implemented character segmentation and optical character recognition (OCR) for accurate plate reading.}}
+%           \resumeItem{\normalsize{
+%           Integrated the recognition system with a database for plate storage and retrieval.}}
+% \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+
+% %-----------PROJECTS-----------
+% \section{PROJECTS}
+    
+%     \resumeSubHeadingListStart
+      
+%       \resumeProjectHeading
+%           {\href{https://github.com/naveenmk404/Text_Summarization_Using_LSTM}{\textbf{\large{Text Summarization}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow}}{Jun-2024}
+%           \resumeItemListStart
+%             \resumeItem{\normalsize{
+%             Developed an LSTM-based model to generate concise summaries from long-form text.}}
+%             \resumeItem{\normalsize{
+%              Trained the model on a large dataset of text-summary pairs, to improve summary accuracy.}}
+%              \resumeItem{\normalsize{
+%              Utilized Python with TensorFlow for model development and training.}}          
+%           \resumeItemListEnd   
+          
+%         \resumeProjectHeading
+%           {\href{https://github.com/naveen-m-k/content_classifier}{\textbf{\large{Content Classifier for Email}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, Scikit-learn
+% }}{Feb-2024}
+%           \resumeItemListStart
+%             \resumeItem{\normalsize{
+%             Trained a Machine Learning model to automatically classify incoming emails into categories.}}
+%             \resumeItem{\normalsize{
+%              Utilized Kaggle dataset and Scikit-learn for model development, training, and evaluation.}}
+%              \resumeItem{\normalsize{
+%              Achieved over 92\% accuracy on the validation dataset.}}
+          
+%     \resumeSubHeadingListEnd
+
+%     \resumeProjectHeading
+%           {\href{https://github.com/naveen-m-k/E-Campus}{\textbf{\large{Car Parking Spot Detection }} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Open CV , Python 
+% }}{May-2024}
+%           \resumeItemListStart
+%             \resumeItem{\normalsize{
+%              Developed a real-time system using OpenCV to detect available parking spots from video feeds.}}
+%             \resumeItem{\normalsize{
+%               Implemented image processing and contour detection algorithms for accurate spot identification.}}
+%              \resumeItem{\normalsize{
+%              Created a user interface to show parking availability and notify users of free spots.}}
+%              % \resumeItem{\normalsize{
+%              %  Optimized detection algorithms to improve accuracy and reduce processing time, ensuring efficient real-time performance.}}
+%              % }
+          
+%     \resumeSubHeadingListEnd
+
+%     \resumeProjectHeading
+%     {\href{https://github.com/naveen-m-k/E-Campus}{\textbf{\large{License Plate Recognition }} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{OpenCV, Python ,YOLOv8}}{Nov-2023}
+%     \resumeItemListStart
+%         \resumeItem{\normalsize{
+%         Developed a system using OpenCV for real-time license plate recognition from vehicle images.}}
+%         \resumeItem{\normalsize{
+%         Implemented character segmentation and optical character recognition (OCR) for accurate plate reading.}}
+%         \resumeItem{\normalsize{
+%         Integrated the recognition system with a database for plate storage and retrieval.}}
+%     \resumeItemListEnd
+
+
+    
+
+% %     \resumeProjectHeading
+% %           {\href{https://github.com/naveen-m-k/E-Campus}{\textbf{\large{E-Campus }} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{HTML, CSS, Javascript,  Bootstrap, MySQL, PHP
+% % }}{Nov-2023}
+% %           \resumeItemListStart
+% %             \resumeItem{\normalsize{
+% %             Developed a web application for recording, processing, and retrieval of student details.}}
+% %             \resumeItem{\normalsize{
+% %              Created modules for student registration, updating records and searching functionalities. }}
+% %              \resumeItem{\normalsize{
+% %              Designed user-friendly interface for data entry, updates, and reporting for administrator.}}
+          
+% %     \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages :}}{ \normalsize{C++, Python (OOP). }} \\
+     \vspace{+5pt}
+     \textbf{\normalsize{Web Development :}}{ \normalsize{ HTML, CSS, Bootstrap, Js, PHP, MySQL. }} \\
+     \vspace{+5pt}
+     \textbf{\normalsize{Libraries :}}{ \normalsize{ Tensorflow, Scikit-learn }} \\
+     \vspace{+5pt}
+     \textbf{\normalsize{Tools / Softwares:}}{ \normalsize{ VS Code, Jupyter, Github. }} \\
+    }}
+ \end{itemize}
+ % \vspace{0.5pt}
+
+
+
+
+
+%------RELEVANT COURSEWORK-------
+% \section{COURSEWORK}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-2pt, parsep=5pt]
+%                 \item Data Structures
+%                 \item Operating Systems
+%                 \item Object Programming
+%                 \item Web Development
+%                 \item DBMS
+%                 \item Artificial Intelligence
+%                 \item Machine Learning 
+%                 \item Neural Networks
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{-2.0\multicolsep}
+
+\section{COURSEWORK}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Operating Systems
+                \item Data Structuress
+                \item Object Programming
+                \item Web Development
+                \item Machine Learning
+                \item Neural Networks
+                \item Artificial Intelligence
+                \item DBMS
+            \end{itemize}
+        \end{multicols}
+        \vspace*{-2.0\multicolsep}
+        % \vspace{10pt}
+    %\resumeSubHeadingListEnd
+
+
+
+% %-----------INVOLVEMENT---------------
+% \section{POSITION OF RESPONSIBILITY}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Augment AI } {Mar 2023 -- Present}
+%         {{Technical Team Member }}{Institute Club}
+%     \resumeSubHeadingListEnd
+%  \vspace{-11pt}
+ \end{document}
+ 
+ %-----------CERTIFICATIONS---------------
+% \section{CERTIFICATIONS}
+
+% $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{ReactJS \& Redux - Udemy}} \hspace{1.6cm}
+% $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Java}} \hspace{2.59cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com} {Command Line in Linux - Coursera}}\\
+
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{Python for Data Science - XIE}} \hspace{1cm}
+% $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{SQL}} \hspace{2.6cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{Microsoft AI Classroom - Microsoft}} \\
+
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{\textbf{5 Stars} in \textbf{C++} \& \textbf{SQL} \href{certificateLink.com}{\raisebox{-0.1\height}\faExternalLink }}}\hspace{1.45cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{MongoDB Basics}} \hspace{0.5cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{NodeJS with Express \& MongoDB - Udemy}} \\
+
+
+
+
+
+change this to add margin for each subsection details
